@@ -9,7 +9,7 @@ export default function Home() {
   const [filter, setFilter] = useState("all");
   const [loading, setLoading] = useState(false);
   const [editing, setEditing] = useState(null);
-  const API_URL = "http://localhost:5000/api/todos";
+  const API_URL = "https://exam-2-z1gz.onrender.com/api/todos";
 
   const loadTodos = async () => {
     if (!user) return;

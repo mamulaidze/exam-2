@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function Profile() {
   const { user } = useUser();
   const [todos, setTodos] = useState([]);
-  const API_URL = "http://localhost:5000/api/todos";
+  const API_URL = "https://exam-2-z1gz.onrender.com/api/todos";
 
   useEffect(() => {
     const fetchTodos = async () => {
